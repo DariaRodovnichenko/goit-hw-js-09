@@ -1,5 +1,5 @@
-const btnStart = document.querySelector('button[data-start]');
-const btnStop = document.querySelector('button[data-stop]');
+const btnStart = document.querySelector('[data-start]');
+const btnStop = document.querySelector('[data-stop]');
 
 let intervalId = null;
 
